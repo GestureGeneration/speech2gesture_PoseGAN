@@ -1,0 +1,14 @@
+batch_size,256
+device,cpu
+discriminator,patchgan
+embedding_dimension,26
+epochs,150
+gan,1
+generator,unet_decoder
+gpu_num,0
+lambda_d,1.0
+lr,0.001
+outdir_path,./out2/
+pose_path,./Y_dev_posegan_norm.npy
+txt_path,./X_dev_posegan.npy
+weight_decay,0
