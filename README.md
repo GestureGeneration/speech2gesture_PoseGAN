@@ -1,4 +1,4 @@
-# speech2gesture
+# speech2gesture_PoseGAN
 
 - 音声からジェスチャを推測するモデル
   - [text2gesture][1]を参考に作成
