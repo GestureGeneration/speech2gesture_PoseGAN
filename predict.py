@@ -45,7 +45,7 @@ def main():
     model.load_state_dict(torch.load(args.modelpath,map_location=device))
 
     for num in range(1093,1183):
-        PATH = args.ipnutpath + "X_test_gesture"+str(num)+"_posegan.npy"
+        PATH = args.inputpath + "X_test_gesture"+str(num)+"_posegan.npy"
         if os.path.exists(PATH):
             testnpdata = np.load(PATH)
             testdata = torch.tensor(testnpdata, dtype=torch.float).to(device)
